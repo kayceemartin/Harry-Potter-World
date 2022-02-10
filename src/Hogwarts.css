@@ -1,14 +1,5 @@
-.App {
-  text-align: center;
-}
-
-
-@font-face {
-  src: url('./font/hp-font.ttf');
-  font-family: hp;
-}
-
-.App-header {
+.Hogwarts {
+  text-align: center; 
   font-family: hp;
   background-image: url('./images/home.jpg');
   background-repeat: no-repeat;
@@ -22,9 +13,13 @@
   font-size: 60px;
 }
 
-/* .button {
-  
-} */
+
+@font-face {
+  src: url('./font/hp-font.ttf');
+  font-family: hp;
+}
+
+
 
 
 

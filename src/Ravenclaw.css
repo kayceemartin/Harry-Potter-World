@@ -1,7 +1,7 @@
-.Gryffindor {
+.Ravenclaw {
     text-align: center;
-    font-family: hp;
-    background-image: url('./images/gryffindor.jpg');
+  font-family: hp;
+    background-image: url('./images/ravenclaw.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -18,4 +18,3 @@
     src: url('./font/hp-font.ttf');
     font-family: hp;
   }
-  

@@ -1,19 +1,24 @@
-import './App.css';
+import './Hogwarts.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Hogwarts from './components/Home';
+import Slytherin from './components/Slytherin';
+import Hufflepuff from './components/Hufflepuff';
+import Gryffindor from './components/Gryffindor';
+import Ravenclaw from './components/Ravenclaw';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Hogwarts!</h1>
-        <h4>Are you ready to be sorted into your house?</h4>
-        <img src='https://www.pngmart.com/files/12/Sorting-Hat-PNG-Clipart.png'/>
-        <h5>Which of these traits best describes you?</h5>
-        <button path = '/Gryffindor'>Brave</button>
-        <button path = '/Hufflepuff'>Loyal</button>
-        <button path = '/Slytherin'>Cunning</button>
-        <button path = '/Ravenclaw'>Clever</button>
-      </header>
+        <Routes>
+          <Route path ='/' element={<Hogwarts/>} />
+          <Route path='/Gryffindor' element={<Gryffindor/>} />
+          <Route path='/Slytherin' element={<Slytherin/>}/>
+          <Route path='/Hufflepuff' element={<Hufflepuff/>}/>
+          <Route path='/Ravenclaw' element={<Ravenclaw/>} />
+        </Routes>
+      
     </div>
   );
 }
