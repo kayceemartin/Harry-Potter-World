@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to Hogwarts!</h1>
+        <h4>Are you ready to be sorted into your house?</h4>
+        <img src='https://www.pngmart.com/files/12/Sorting-Hat-PNG-Clipart.png'/>
+        <h5>Which of these traits best describes you?</h5>
+        <button path = '/Gryffindor'>Brave</button>
+        <button path = '/Hufflepuff'>Loyal</button>
+        <button path = '/Slytherin'>Cunning</button>
+        <button path = '/Ravenclaw'>Clever</button>
       </header>
     </div>
   );
