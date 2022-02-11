@@ -4,7 +4,7 @@
 > My app is called Harry Potter World. It’s a story telling app walking you through the world of Harry Potter at Hogwarts where you can be sorted into a house and meet fellow characters in your house. 
 
 ## Link to the API
-> http://hp-api.herokuapp.com/api/characters
+> https://hp-api.herokuapp.com/
 
 ## Example data response
 
