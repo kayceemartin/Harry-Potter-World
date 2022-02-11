@@ -6,6 +6,7 @@ import Slytherin from './components/Slytherin';
 import Hufflepuff from './components/Hufflepuff';
 import Gryffindor from './components/Gryffindor';
 import Ravenclaw from './components/Ravenclaw';
+import CharacterDetails from './components/CharacterDetails'
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
           <Route path='/Slytherin' element={<Slytherin/>}/>
           <Route path='/Hufflepuff' element={<Hufflepuff/>}/>
           <Route path='/Ravenclaw' element={<Ravenclaw/>} />
+          <Route path='/characterdetails/:id' element= {<CharacterDetails/>} />
         </Routes>
-      
     </div>
   );
 }
