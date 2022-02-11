@@ -1,10 +1,10 @@
 import '../CharacterDetails.css'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function CharacterDetails (props) {
     const id = useParams()
-    // const name = id.split('%20').join(' ')
 
     console.log(id)
     const [characters, setCharacters] = useState(null)
@@ -47,6 +47,9 @@ function CharacterDetails (props) {
             <h3>House: {character.house}</h3>
             <h3>Wand Core: {character.wand.core}</h3>
             <h3>Patronus: {character.patronus}</h3>
+          </div>
+          <div className=''>
+            <Link to ='/'>Mischief Managed</Link>
           </div>
         </div>
       );

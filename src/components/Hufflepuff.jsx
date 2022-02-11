@@ -20,7 +20,7 @@ function Hufflepuff () {
         <div className='Hufflepuff'>
             <h1>Welcome to the Hufflepuff Common Room!</h1>
                 <div className ='characters'>
-                    {hCharacters.slice(0,3).map((character => {
+                    {hCharacters.slice(0, 3).map((character => {
                         return (
                             <Link to = {`/characterdetails/${character.name}`} key = {character.name}>
                                 <div className = 'card'>
