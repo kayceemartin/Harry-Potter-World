@@ -1,0 +1,19 @@
+.details-container {
+    text-align: center;
+    font-family: hp;
+    background-image: url('./images/hogwarts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 55px;
+}
+
+@font-face {
+    src: url('./font/hp-font.ttf');
+    font-family: hp;
+  }

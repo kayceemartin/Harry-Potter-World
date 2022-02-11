@@ -22,7 +22,7 @@ function Ravenclaw () {
                 <div className ='characters'>
                     {rCharacters.slice(0,3).map((character => {
                         return (
-                            <Link to = {`/characterdetails/${character.id}`} key = {character.id}>
+                            <Link to = {`/characterdetails/${character.name}`} key = {character.name}>
                                 <div className = 'card'>
                                     <div className ='card-image'>
                                         <img src = {character.image}/>
