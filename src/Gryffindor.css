@@ -21,7 +21,8 @@
   grid-gap: 1rem;
   margin: 5 auto;
   max-width: 1200px;
-  padding: 10rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .card-g {
@@ -47,6 +48,7 @@
 }
 
 .polyjuice {
+  margin-top: 30px;
   font-size: 40;
 } 
 .go-home {

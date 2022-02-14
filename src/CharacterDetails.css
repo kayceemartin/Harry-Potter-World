@@ -13,6 +13,15 @@
     font-size: 55px;
 }
 
+img{
+    margin-bottom: 0px 
+}
+
+h2, h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 @font-face {
     src: url('./font/hp-font.ttf');
     font-family: hp;

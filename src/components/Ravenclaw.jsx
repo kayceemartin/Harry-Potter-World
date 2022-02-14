@@ -25,7 +25,7 @@ function Ravenclaw() {
                         <Link to={`/characterdetails/${character.name}`} key={character.name}>
                             <div className='card-r'>
                                 <div className='card-image-r'>
-                                    <img src={character.image} />
+                                    <img src={character.image || 'https://i.imgur.com/GdAz0oC.png'} />
                                 </div>
                                 <div className='card-title-r'>
                                     <h3>{character.name}</h3>

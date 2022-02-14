@@ -25,7 +25,7 @@ function Hufflepuff() {
                         <Link to={`/characterdetails/${character.name}`} key={character.name}>
                             <div className='card-h'>
                                 <div className='card-image-h'>
-                                    <img src={character.image} />
+                                    <img src={character.image || 'https://i.imgur.com/GdAz0oC.png'} />
                                 </div>
                                 <div className='card-title-h'>
                                     <h3>{character.name}</h3>
