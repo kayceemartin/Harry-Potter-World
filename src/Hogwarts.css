@@ -13,6 +13,13 @@
   font-size: 60px;
 }
 
+.character-search {
+  display: flex;
+}
+.search {
+  font-family: hp;
+}
+
 h1, h4{
   margin-bottom: 0px;
 }

@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import Navigation from './Navigation';
 
 function Hogwarts() {
     return (
         <div className='Hogwarts'>
+            <div className='search'>
+                <Routes>
+                    <Route path='/' element={<Navigation />} />
+                </Routes>
+            </div>
             <h1>Welcome to Hogwarts!</h1>
             <h4>Are you ready to be sorted into your house?</h4>
             <img src='https://www.pngmart.com/files/12/Sorting-Hat-PNG-Clipart.png' />

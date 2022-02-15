@@ -25,7 +25,7 @@ function Gryffindor() {
                         <Link to={`/characterdetails/${character.name}`} key={character.name}>
                             <div className='card-g'>
                                 <div className='card-image-g'>
-                                    <img src={character.image || "http://placekitten.com/200/400"} />
+                                    <img src={character.image} />
                                 </div>
                                 <div className='card-title-g'>
                                     <h3>{character.name}</h3>
@@ -46,3 +46,5 @@ function Gryffindor() {
 }
 
 export default Gryffindor
+
+   
