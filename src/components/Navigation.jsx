@@ -5,7 +5,7 @@ function Navigation() {
     const [results, setResults] = useState()
     const [searchInput, setSearchInput] = useState(' ')
     const handleFetch = () => {
-        const URL = 'http://hp-api.herokuapp.com/api/characters'
+        const URL = 'https://hp-api.herokuapp.com/api/characters'
 
         fetch(URL)
             .then(response => response.json())
