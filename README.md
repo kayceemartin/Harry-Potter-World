@@ -1,38 +1,27 @@
 # Harry-Potter-World
 
-## Project Description 
-> My app is called Harry Potter World. It’s a story telling app walking you through the world of Harry Potter at Hogwarts where you can be sorted into a house and meet fellow characters in your house. 
+> Welcome to Harry Potter World! Here you will be sorted into your house and meet fellow Harry Potter Characters!
 
-## Link to the API
+>This is a React app. The app can be found here
+
+## Technologies Used
+>React, CSS, heroku
+
+>You can find my API here
+
 > https://hp-api.herokuapp.com/
 
-## Example data response
+## Project Description
+>This project must meet 6 requirements:
 
-{
-"name": "Harry Potter",
-"alternate_names": [],
-"species": "human",
-"gender": "male",
-"house": "Gryffindor",
-"dateOfBirth": "31-07-1980",
-"yearOfBirth": 1980,
-"wizard": true,
-"ancestry": "half-blood",
-"eyeColour": "green",
-"hairColour": "black",
-"wand": {
-"wood": "holly",
-"core": "phoenix feather",
-"length": 11
-},
-"patronus": "stag",
-"hogwartsStudent": true,
-"hogwartsStaff": false,
-"actor": "Daniel Radcliffe",
-"alternate_actors": [],
-"alive": true,
-"image": "http://hp-api.herokuapp.com/images/harry.jpg"
-}
+1. The app must be fully functional & interactive React application.
+2. It must include data from a third-party API.
+3. It must have a minimum of 4 components.
+4. It must be deployed on the web & have a link in this README.
+5. This app must only consist of CSS Flexbox or Grid for layout strategies & it cannot be       dependent on floats, position, or tables.
+6. This repository must adequately document my project.
+7. Git version control must be utilized with frequent commits dating back to the start of the project.
+
 
 ## Visual of my component hierarchy
 
@@ -57,4 +46,4 @@
 >I would like to have a home page with a one question quiz. How you answer that question will then bring you to your house common room where three characters appear. By clicking on each character you are then given information about that character. 
 
 ### Stretch Goals
->I would like to add a login in feature and a multi-question quiz to be sorted into a house. I would also like to have a button in each Common Room that you can take "polyjuice potion" and see another house's common room.  
+>I would like to add a search bar feature where you can search for any character and a multi-question quiz to be sorted into a house. I would also like to have a button in each Common Room that you can take "polyjuice potion" and see another house's common room.  
