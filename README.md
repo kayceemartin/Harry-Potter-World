@@ -2,14 +2,12 @@
 
 > Welcome to Harry Potter World! Here you will be sorted into your house and meet fellow Harry Potter Characters!
 
->This is a React app. The app can be found here
+>This is a React app. The app can be found [here](https://harry-potter-world.herokuapp.com/)
 
 ## Technologies Used
 >React, CSS, heroku
 
->You can find my API here
-
-> https://hp-api.herokuapp.com/
+>You can find my API [here](https://hp-api.herokuapp.com/)
 
 ## Project Description
 >This project must meet 6 requirements:
@@ -21,7 +19,6 @@
 5. This app must only consist of CSS Flexbox or Grid for layout strategies & it cannot be       dependent on floats, position, or tables.
 6. This repository must adequately document my project.
 7. Git version control must be utilized with frequent commits dating back to the start of the project.
-
 
 ## Visual of my component hierarchy
 
