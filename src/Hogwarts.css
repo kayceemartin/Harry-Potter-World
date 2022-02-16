@@ -15,9 +15,21 @@
 
 .character-search {
   display: flex;
+  justify-content: flex-end;
+  text-align: right;
 }
 .search {
   font-family: hp;
+  font-size: 20px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.search-button {
+  font-family: hp;
+  font-size: 20px;
+  margin-right: 10px;
+  
 }
 
 h1, h4{

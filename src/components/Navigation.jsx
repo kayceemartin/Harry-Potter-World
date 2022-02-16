@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Navigation() {
     const [results, setResults] = useState()
-    const [searchInput, setSearchInput] = useState(' ')
+    const [searchInput, setSearchInput] = useState('')
     const handleFetch = () => {
         const URL = 'https://hp-api.herokuapp.com/api/characters'
 
@@ -40,7 +40,7 @@ function Navigation() {
                     value={searchInput}
                 />
                 <Link to={`/characterdetails/${searchInput}`}>
-                    <button className="search">Search</button>
+                    <button className="search-button">Search</button>
                 </Link>
             </form>
         </div>
