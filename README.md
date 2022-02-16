@@ -2,12 +2,19 @@
 
 > Welcome to Harry Potter World! Here you will be sorted into your house and meet fellow Harry Potter Characters!
 
->This is a React app. The app can be found [here](https://harry-potter-world.herokuapp.com/)
+Expect to see:
+1. Character's Name
+2. Character's House
+3. Character's Wand Core
+4. Character's Patronus
+
+
+This is a React app. The app can be found [here](https://harry-potter-world.herokuapp.com/)
 
 ## Technologies Used
 >React, CSS, heroku
 
->You can find my API [here](https://hp-api.herokuapp.com/)
+You can find my API [here](https://hp-api.herokuapp.com/)
 
 ## Project Description
 >This project must meet 6 requirements:
@@ -20,7 +27,7 @@
 6. This repository must adequately document my project.
 7. Git version control must be utilized with frequent commits dating back to the start of the project.
 
-## Visual of my component hierarchy
+## Component Hierarchy
 
 ![](https://media.git.generalassemb.ly/user/40982/files/eb3f5d00-8a5e-11ec-9770-51ba89ccff12)
 
