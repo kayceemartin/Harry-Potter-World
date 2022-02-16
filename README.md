@@ -44,3 +44,9 @@
 
 ### Stretch Goals
 >I would like to add a search bar feature where you can search for any character and a multi-question quiz to be sorted into a house. I would also like to have a button in each Common Room that you can take "polyjuice potion" and see another house's common room.  
+
+### Getting Started
+>
+
+### Contribution Guidlines
+>
