@@ -54,5 +54,5 @@
 ### Getting Started
 >When opening up the app, you'll see the home page where you can be sorted into a house. You will also see a search bar feature where you can search for any Harry Potter character. In order to run the application, be sure to fork it into your own Github account, clone the code, and in your terminal run "npm start".
 
-### Contribution Guidlines
+### Contribution Guidelines
 >Before contributing code, or adding features, be sure you have forked and clone the original code. Once that has been done, feel free to add on and tackle some of the above stretch goals!
