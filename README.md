@@ -17,7 +17,7 @@
 
 ## Project Description
 >This project must meet 6 requirements:
-
+>
 >1. The app must be fully functional & interactive React application.
 >2. It must include data from a third-party API.
 >3. It must have a minimum of 4 components.
@@ -52,7 +52,7 @@
 >I would like to add a search bar feature where you can search for any character and a multi-question quiz to be sorted into a house. I would also like to have a button in each Common Room that you can take "polyjuice potion" and see another house's common room.  
 
 ### Getting Started
->
+>When opening up the app, you'll see the home page where you can be sorted into a house. You will also see a search bar feature where you can search for any Harry Potter character. In order to run the application, be sure to fork it into your own Github account, clone the code, and in your terminal run "npm start".
 
 ### Contribution Guidlines
 >
