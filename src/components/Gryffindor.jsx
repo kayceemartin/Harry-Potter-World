@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 function Gryffindor() {
     const [gCharacters, setGCharacters] = useState([])
-    const URL = 'http://hp-api.herokuapp.com/api/characters/house/gryffindor'
+    const URL = 'https://hp-api.herokuapp.com/api/characters/house/gryffindor'
     useEffect(() => {
         fetch(URL)
             .then(res => res.json())

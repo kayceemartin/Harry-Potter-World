@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function CharacterDetails(props) {
   const id = useParams()
   const [characters, setCharacters] = useState(null)
-  const URL = "http://hp-api.herokuapp.com/api/characters"
+  const URL = "https://hp-api.herokuapp.com/api/characters"
   useEffect(() => {
     fetch(URL)
       .then((res) => res.json())
