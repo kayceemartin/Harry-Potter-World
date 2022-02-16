@@ -15,8 +15,8 @@
 
 .characters-s {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(250px, auto);
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 5 auto;
   max-width: 1200px;

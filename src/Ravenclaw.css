@@ -1,3 +1,7 @@
+*{
+  box-sizing: content-box;
+}
+
 .Ravenclaw {
     text-align: center;
     font-family: hp;
@@ -15,12 +19,13 @@
 
 .characters-r {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(250px, auto);
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 5 auto;
   max-width: 1200px;
-  padding: 1rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .card-r {
@@ -28,6 +33,8 @@
   border-radius: 1rem;
   display: grid;
   grid-template-rows: 2fr 1fr;
+  overflow: hidden;
+  text-align: center;
 }
 
 .card-image-r {

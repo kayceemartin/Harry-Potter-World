@@ -20,16 +20,15 @@
 }
 .search {
   font-family: hp;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: auto;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .search-button {
   font-family: hp;
-  font-size: 20px;
+  font-size: 25px;
   margin-right: 10px;
-  
 }
 
 h1, h4{
